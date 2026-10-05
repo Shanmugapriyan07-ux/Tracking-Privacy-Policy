@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { @apply bg-white font-sans text-ink antialiased; overflow-wrap: anywhere; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-brand; outline-style: solid; }
+  [id] { scroll-margin-top: 5.5rem; }
+}
+
+@layer components {
+  .prose-policy p { @apply mt-4 text-[1.0625rem] leading-8 text-[#374151]; }
+  .prose-policy ul { @apply mt-4 space-y-2.5; }
+  .prose-policy ol { @apply mt-4 list-decimal space-y-2.5 pl-6 text-[#374151] marker:font-semibold marker:text-brand; }
+  .prose-policy li { @apply text-[1.0625rem] leading-8; }
+}

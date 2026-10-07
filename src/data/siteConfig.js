@@ -1,8 +1,8 @@
 export const siteConfig = {
   appName: 'Delivery Tracker',
-  businessName: '[Convenio Foods Internation Private Limited]',
+  businessName: '[Convenio Foods International PVT LTD]',
   supportEmail: '[shanmugapriyan.career@gmail.com]',
-  lastUpdated: '[19-10-2026]',
+  lastUpdated: '[20-09-2026]',
   year: '[2026]',
   termsUrl: null,
 };
